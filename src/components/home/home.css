@@ -1,0 +1,183 @@
+/* ================ Hero section ===============*/
+.home{
+    width: 100%;
+}
+
+.hero,
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content{
+    height: 50vh;
+}
+.hero-title{
+    font-size: 3.5rem;
+}
+
+.hero-subtitle{
+    max-width: 650px;
+}
+
+.hero-buttons{
+    margin-top: 3rem;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.get-started{
+    color: #19e2a5;
+    background-color: #d5f5ec;
+}
+
+.learn-more{
+    color: #ff6b6b;
+    background-color: #fae3e3;
+}
+
+.get-started:hover{
+    color: whitesmoke;
+    background-color:  #24ffc1;;
+}
+
+.learn-more:hover{
+    color: whitesmoke;
+    background-color:  #ff3e3e;
+}
+
+.hero-img{
+    width: 50vw;
+}
+
+
+
+/* ================ ServiesFT ===============*/
+.serviceFT{
+    /* background-color: #fae3e3; */
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.service-text{
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.service-text h2{
+    font-size: 2rem;
+}
+
+.service-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.service-card{
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.service-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service-card img{
+    width: 200px;
+    height: auto;
+}
+
+.service-card p{
+    font-size: 0.75rem;
+}
+
+.service-card span{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.service-card > span > i{
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.service-card> span:hover i{
+    transform: translateX(00.25rem);
+}
+
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 992px) {
+    .hero-title{
+        font-size: 3rem;
+    }
+
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .hero-title{
+        font-size: 2.5rem;
+    }
+
+    .hero-content{
+        height: 60vh;
+    }
+
+    .hero-img{
+        width: 100vw;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .service-cards{
+        margin-right: 1.2rem;
+    }
+
+    .hero-title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .service-card{
+        width:340px;
+        height: 350px;
+    }
+
+    .service-card p{
+        font-size: 0.9rem;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    
+  }
