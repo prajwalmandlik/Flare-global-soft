@@ -6,7 +6,7 @@ const hero = () => {
     <section className="section hero container">
       <div className="hero-content">
         <h1 className="hero-title">
-          Empowering your vision with <br /> Flare Global Soft
+          Empower your vision with <br /> Flare Global Soft
         </h1>
         <p className="hero-subtitle">
           We provide consulting services, helping companies to reach their
