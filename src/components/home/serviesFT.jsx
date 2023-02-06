@@ -1,11 +1,13 @@
 import React from "react";
-import Logo from "../../assest/hero-img.png";
+import Web from "../../assest/web.png"
+import App from "../../assest/app.png"
+import Graphic from "../../assest/graphic.png"
 
 const serviesFT = () => {
  
   return (
-    <header className="serviceFT container">
-      <div className="service-text">
+    <section className="serviceFT container">
+      <div className="section-text">
         <h2 className="section_title">Services We Deliver</h2>
         <span className="section_subtitle">
           A complete solution for preparing for your success
@@ -13,7 +15,7 @@ const serviesFT = () => {
       </div>
       <div className="service-cards">
         <div className="service-card">
-          <img src={Logo} alt="" />
+          <img src={Web} alt="" />
           <h3>Web Development</h3>
           <p>
             We are a startup company specializing in providing high-quality web
@@ -25,7 +27,7 @@ const serviesFT = () => {
         </div>
 
         <div className="service-card">
-          <img src={Logo} alt="" />
+          <img src={App} alt="" />
           <h3>Web Development</h3>
           <p>
             We are a startup company specializing in providing high-quality web
@@ -37,7 +39,7 @@ const serviesFT = () => {
         </div>
 
         <div className="service-card">
-          <img src={Logo} alt="" />
+          <img src={Graphic} alt="" />
           <h3>Web Development</h3>
           <p>
             We are a startup company specializing in providing high-quality web
@@ -48,7 +50,7 @@ const serviesFT = () => {
           </span>
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 

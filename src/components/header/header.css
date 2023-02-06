@@ -52,7 +52,7 @@
         right: 0;
         left: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.106);
+        background: rgba(0, 0, 0, 0.5);
         transition: 0.3s;
     }
     
@@ -76,6 +76,7 @@
 
     .nav-link{
         color: black;
+        border-bottom: 1px solid rgb(200, 200, 200);
         margin-bottom: 1rem;
     }
 
