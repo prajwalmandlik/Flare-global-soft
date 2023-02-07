@@ -4,6 +4,7 @@ import ServiesFT from "./serviesFT";
 import Hero from "./hero";
 import Testimonials from "../testimonials/Testimonials";
 import Team from "../team/Team";
+import Vision from "../vision/Vision";
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     <div className="home">
     <Hero />
     <ServiesFT />
+    <Vision />
     <Testimonials />
     <Team />
     </div>

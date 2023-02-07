@@ -13,7 +13,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue),var(--sat),98%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
   /* ========== Font ans typogarphy ========== */
@@ -65,89 +65,93 @@
 }
 
 /* ================ BASE ===============*/
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body,
 button,
 input,
-textarea{
+textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
 
-body{
+body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
 ul {
-  list-style: none; 
+  list-style: none;
 }
 
 a {
   text-decoration: none;
 }
 
-button{
+button {
   cursor: pointer;
   border: none;
   outline: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
 /* ================ REUSABLE CSS CLASSES ===============*/
-.section{
+.section {
   padding: 6rem 0 2rem;
 }
 
-.section-text{
+.section-text {
   text-align: center;
   padding: 4rem 1rem;
 }
 
-.section-text h2{
+.section-text h2 {
   font-size: var(--h2-font-size);
 }
-.section-title{
+
+.section-title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section-subtitle{
+.section-subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
 .section-title,
-.section-subtitle{
+.section-subtitle {
   text-align: center;
 }
+
 /* ================ LAYOUT ===============*/
-.container{
+.container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.grid{
+.grid {
   display: grid;
   gap: 1.5rem;
 }
@@ -155,30 +159,33 @@ img{
 /* ================ BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
   font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+  color: var(--title-color-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
 }
 
 .button:hover {
   background-color: var(--title-color-dark);
+  color: var(--container-color);
 }
 
-.button-icon{
+.button-icon {
   margin-left: var(--mb-0-5);
 }
-.button--flex{
+
+.button--flex {
   display: inline-flex;
   align-items: center;
 }
+
 /* ================ BREAKPOINS ===============*/
 /* For large devices  */
 @media screen and (max-width: 992px) {
   /* .container{
-     margin-left: 1rem;
-    margin-right: 1rem; 
+     margin-left: 2rem;
+    margin-right: 2rem; 
   } */
 
   .button {
@@ -193,28 +200,28 @@ img{
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  body{
-    margin: 0 0 var(--header-height) 0 ;
+  body {
+    margin: 0 0 var(--header-height) 0;
   }
 
   .section {
     padding: 2rem 0 4rem;
   }
-  
+
   .section__sbutitle {
     margin-bottom: var(--mb-3);
   }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
   :root {
     --big-font-size: 2.25rem
   }
-/* 
+
+  /* 
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
