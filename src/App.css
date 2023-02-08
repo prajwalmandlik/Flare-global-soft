@@ -146,7 +146,7 @@ img {
 
 /* ================ LAYOUT ===============*/
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -169,6 +169,7 @@ img {
 .button:hover {
   background-color: var(--title-color-dark);
   color: var(--container-color);
+  transition: .5s ease-in-out;
 }
 
 .button-icon {
@@ -201,7 +202,7 @@ img {
 /* For medium devices */
 @media screen and (max-width: 768px) {
   body {
-    margin: 0 0 var(--header-height) 0;
+    margin: 0 0 0 0;
   }
 
   .section {
