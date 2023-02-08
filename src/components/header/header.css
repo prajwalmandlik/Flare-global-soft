@@ -53,7 +53,8 @@
         left: 0;
         bottom: 0;
         background: rgba(0, 0, 0, 0.5);
-        transition: 0.3s;
+        transition: .5s ease-in-out;
+
     }
     
     .nav-links-show {
@@ -72,6 +73,7 @@
         width: 95vw;
         height: 90vh;
         font-size: 1.2rem;
+        transition: .5s ease-in-out;
     }
 
     .nav-link{

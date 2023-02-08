@@ -37,8 +37,8 @@
 }
 
 .vision-start-button button{
-    background-color: #ff624d;
-    color: rgb(255, 255, 255);
+    background-color: #ff5757;
+    color: #ffffff;
 }
 
 .vision-start-button button:hover{
@@ -61,6 +61,11 @@
     .vision-img{
         width: 45vw;
     }
+
+    .vision-start-button{
+        text-align: center;
+        margin-top: 1rem;
+    }
   }
   
   /* For medium devices */
@@ -73,6 +78,8 @@
     .vision-img{
         width: 70vw;
     }
+
+    
   }
   
   @media screen and (max-width: 576px) {}
