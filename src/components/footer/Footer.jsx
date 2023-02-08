@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="container">
       <div className="contact-us">
-          <div className="contact-us-title">We’d love to hear from you! How we can best help you!</div>
+          <div className="contact-us-title">Get in Touch with us Today to discover How we can help your Business reach new Heights.</div>
           <div className="contact-us-button">
             <button className="button">Contact Us</button>
           </div>
