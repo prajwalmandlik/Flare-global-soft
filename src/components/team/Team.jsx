@@ -12,7 +12,7 @@ const Team = () => {
         </span>
       </div>
 
-      <div className="team-grid grid">
+      <div className="team-grid">
         {data.map((i) => {
           return (
             <div className="team-card">
