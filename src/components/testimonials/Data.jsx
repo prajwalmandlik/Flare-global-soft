@@ -13,7 +13,7 @@ export const Data = [
         id:2,
         img: User,
         name: "Jyoti Patil Katale",
-        post: "Founder Chairman / Gokul Foundation Trust",
+        post: "Founder chairman / Gokul Foundation Trust",
         Message: "They have designed my school website. Very cooperative and timely completion of website. Fully satisfied. Thank you",
     },
 ];

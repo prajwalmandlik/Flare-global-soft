@@ -10,18 +10,18 @@ const Vision = () => {
         </div>
         <div className="vision-content">
             <div className="vision-title">
-                <h2>Make your business reach the highest level</h2>
+                <h2>Make your Business reach the Highest level</h2>
             </div>
 
             <div className="vision-description">
-                <p>We are dedicated to delivering cutting-edge solutions that help businesses achieve their goals and reach new heights.</p>
+                <p>We are dedicated to delivering Cutting-Edge Solutions that help Businesses achieve their Goals and reach New Heights.</p>
             </div>
 
             <div className="vision-subpoint">
                 <div className="vision-icon"><i class='bx bx-run'></i></div>
                 <div className="vision-subpoint-description">
                     <h3>Mission:</h3>
-                    <p>Our mission is to empower businesses of all sizes with innovative technology solutions that drive growth, streamline processes, and enhance their competitive edge.</p>
+                    <p>Our mission is to empower Businesses of all sizes with Innovative Technology Solutions that drive Growth, Streamline processes, and enhance their Competitive edge.</p>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ const Vision = () => {
             <div className="vision-icon"><i class='bx bx-bullseye'></i></div>
                 <div className="vision-subpoint-description">
                     <h3>Vision:</h3>
-                    <p>Our vision to deliver exceptional value to our clients through innovative products and services that help them achieve their goals and reach new heights.</p>
+                    <p>Our vision to deliver exceptional value to our clients through Innovative Products and Services that help them achieve their Goals and reach new Heights.</p>
                 </div>
             </div>
 

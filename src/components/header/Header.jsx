@@ -25,8 +25,8 @@ const Header = () => {
         <div className={toggle ? "nav-menu-show" : "nav-menu"}>
           <ul className={toggle ? "nav-links-show" : "nav-links"}>
             <li className="nav-link">Home</li>
-            <li className="nav-link">services</li>
             <li className="nav-link">About</li>
+            <li className="nav-link">services</li>
             <li className="nav-link">Contact</li>
           </ul>
 

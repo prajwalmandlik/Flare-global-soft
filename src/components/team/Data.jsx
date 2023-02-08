@@ -31,8 +31,8 @@ export const data = [
     },
     {
         id:4,
-        name: "prajwal mandlik",
-        role: "Develper",
+        name: "Prajwal Mandlik",
+        role: "Developer",
         img: Prajwal,
         linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
         instagram: "https://www.instagram.com/prajwalmandlik7/",
@@ -40,7 +40,7 @@ export const data = [
     {
         id:5,
         name: "Kartik Waghchaure",
-        role: "Customer service executive",
+        role: "Customer Service Executive",
         img: Kartik ,
         linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
         instagram: "https://www.instagram.com/prajwalmandlik7/",
