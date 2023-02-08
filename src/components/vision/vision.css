@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     place-items: center;
+    padding: 3rem 0;
 }
 
 .vision-img{
@@ -51,7 +52,7 @@
 @media screen and (max-width: 992px) {
     .vision{
         grid-template-columns: repeat(1,1fr);
-        margin: 0 1rem;
+        padding: 1 1rem;
     }
 
     .vision-content{

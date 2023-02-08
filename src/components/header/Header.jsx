@@ -16,7 +16,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <header className="header">
+    <header className="header bg-color section">
       <nav className="nav container">
         <div className="nav-logo">
           <img src={Logo} alt="" /> <span>Flare Global Soft</span>

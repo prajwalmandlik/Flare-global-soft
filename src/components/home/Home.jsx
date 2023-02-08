@@ -6,15 +6,14 @@ import Testimonials from "../testimonials/Testimonials";
 import Team from "../team/Team";
 import Vision from "../vision/Vision";
 
-
 const Home = () => {
   return (
     <div className="home">
-    <Hero />
-    <ServiesFT />
-    <Vision />
-    <Testimonials />
-    <Team />
+      <Hero />
+      <ServiesFT />
+      <Vision />
+      <Testimonials />
+      <Team />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import VisionImg from "../../assest/vision.png";
 
 const Vision = () => {
   return (
-    <section className="vision container">
+    <section className="vision container bg-color">
         <div className="vision-img">
             <img src={VisionImg} alt="" />
         </div>

@@ -1,27 +1,23 @@
 import React from "react";
 import "./footer.css";
-import Logo from "../../assest/logo.png";
+import Logo from "../../assest/footer-logo.png";
 
 const Footer = () => {
   return (
-    <section className="container">
+    <section className="container section bg-color">
       <div className="contact-us">
-          <div className="contact-us-title">Get in Touch with us Today to discover How we can help your Business reach new Heights.</div>
-          <div className="contact-us-button">
-            <button className="button">Contact Us</button>
-          </div>
+        <div className="contact-us-title">
+          Get in Touch with us Today to discover How we can help your Business
+          reach new Heights.
+        </div>
+        <div className="contact-us-button">
+          <button className="button">Contact Us</button>
+        </div>
       </div>
       <div className="footer">
         <div className="footer-info">
           <div className="footer-logo">
-            <div>
-              <img src={Logo} alt="" />
-            </div>
-            <div className="footer-logo-text">
-              <span>Flare</span>
-              <span>Global</span>
-              <span>Soft</span>
-            </div>
+            <img src={Logo} alt="" />
           </div>
           <div className="footer-description">
             We are dedicated to delivering cutting-edge solutions that help

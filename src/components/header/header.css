@@ -4,9 +4,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
     color: black;
-    padding: 0 1rem;
 }
 
 .nav,
@@ -37,10 +35,15 @@
 
 .scroll-header{
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
 }
 /* ================ BREAKPOINS ===============*/
 /* For large devices  */
 @media screen and (max-width: 992px) {
+    .header{
+        padding: 0 2rem;
+    }
+
     .nav-links{
         display: none;
     }

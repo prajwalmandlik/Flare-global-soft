@@ -116,7 +116,7 @@ img {
 
 /* ================ REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 0 4rem;
 }
 
 .section-text {
@@ -144,9 +144,12 @@ img {
   text-align: center;
 }
 
+.bg-color{
+  background-color: #fef8f5;
+}
 /* ================ LAYOUT ===============*/
 .container {
-  max-width: 1400px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -197,6 +200,11 @@ img {
     width: 22px;
     height: 22px;
   }
+
+  .section {
+    padding: 0;
+  }
+
 }
 
 /* For medium devices */
@@ -205,10 +213,7 @@ img {
     margin: 0 0 0 0;
   }
 
-  .section {
-    padding: 2rem 0 4rem;
-  }
-
+  
   .section__sbutitle {
     margin-bottom: var(--mb-3);
   }
