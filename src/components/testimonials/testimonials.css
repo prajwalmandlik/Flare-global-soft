@@ -1,41 +1,40 @@
 .carosel{
-    max-width: 996px;
+    max-width: 720px;
     margin: 0 auto;
 }
 
 .client-card{
-    height: 100%;
-    max-width: 556px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1.5rem 2rem;
+    padding: 4rem;
     margin-bottom: var(--mb-3);
+    text-align: center;
+    font-size: var(--normal-font-size);
 }
 
-.client-card:hover{
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    transition: 0.5s ease-in-out;
+.client-card i{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .client-message{
-    font-size: var(--small-font-size);
     margin-bottom: var(--mb-2);
 }
 
 .client-name,
 .client-post{
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .client-info{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -51,6 +50,8 @@
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
+    
   }
   
   /* For medium devices */
@@ -75,6 +76,10 @@
     .testimonials{
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .client-card{
+        padding: 2rem 0; 
     }
   }
   

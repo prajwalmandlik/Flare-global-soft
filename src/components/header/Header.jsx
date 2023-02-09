@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import { Link } from "react-router-dom";
 import "./header.css";
 import Logo from "../../assest/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   /* ================ Change Background Header ===============*/
@@ -16,7 +17,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <header className="header bg-color section">
+    <header className="header section">
       <nav className="nav container">
         <div className="nav-logo">
           <img src={Logo} alt="" /> <span>Flare Global Soft</span>
@@ -24,10 +25,26 @@ const Header = () => {
 
         <div className={toggle ? "nav-menu-show" : "nav-menu"}>
           <ul className={toggle ? "nav-links-show" : "nav-links"}>
-            <li className="nav-link">Home</li>
-            <li className="nav-link">About</li>
-            <li className="nav-link">services</li>
-            <li className="nav-link">Contact</li>
+            <li className="nav-link">
+              <Link to={"/"}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-link">
+              <Link to={"/About"}>
+                About
+              </Link>
+            </li>
+            <li className="nav-link">
+              <Link to={"/Services"}>
+                Services
+              </Link>
+            </li>
+            <li className="nav-link">
+              <Link to={"/Contact"}>
+                Contact
+              </Link>
+            </li>
           </ul>
 
           <div className="nav-toggle">

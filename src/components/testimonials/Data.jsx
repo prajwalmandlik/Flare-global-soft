@@ -6,7 +6,7 @@ export const Data = [
         img: User,
         name: "Bhagyashri Malpathak",
         post: "Owner / Nirmal Beauty Care",
-        Message: "Website widgets are an easy way to be constantly listening, and I think they are the ultimate empathy tool. When you connect them with tools that let you see how people interact with your website, you elevate your analysis to the next level.”very easy to client.",
+        Message: "Website widgets are an easy way to be constantly listening, and I think they are the ultimate empathy tool. When you connect them with tools that let you see how people interact with your website (for example: session recordings), you elevate your analysis to the next level.”very easy to client.",
     },
     
     {

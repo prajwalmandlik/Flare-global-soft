@@ -18,7 +18,7 @@ const Vision = () => {
             </div>
 
             <div className="vision-subpoint">
-                <div className="vision-icon"><i class='bx bx-run'></i></div>
+                <div className="vision-icon"><i class='bx bx-bullseye'></i></div>
                 <div className="vision-subpoint-description">
                     <h3>Mission:</h3>
                     <p>Our mission is to empower Businesses of all sizes with Innovative Technology Solutions that drive Growth, Streamline processes, and enhance their Competitive edge.</p>
@@ -26,7 +26,7 @@ const Vision = () => {
             </div>
 
             <div className="vision-subpoint">
-            <div className="vision-icon"><i class='bx bx-bullseye'></i></div>
+            <div className="vision-icon"><i class='bx bx-run'></i></div>
                 <div className="vision-subpoint-description">
                     <h3>Vision:</h3>
                     <p>Our vision to deliver exceptional value to our clients through Innovative Products and Services that help them achieve their Goals and reach new Heights.</p>

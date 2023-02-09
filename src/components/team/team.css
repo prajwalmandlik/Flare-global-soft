@@ -19,9 +19,9 @@
 }
 
 .member-img{
-    width: 306px;
-    height: 391px;
-    border: 1px solid rgb(222, 221, 221);
+    width: 256px;
+    height: 341px;
+    border: 3px solid rgb(2, 2, 2);
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -37,20 +37,20 @@
 }
 
 .member-info{
-    font-size: var(--normal-font-size);
     background-color: #ffffff;
-    width: 276px;
-    height: 99px;
-    border: 1px solid rgb(222, 221, 221);
+    width: 226px;
+    height: 69px;
+    border: 2px solid rgb(100, 100, 100);
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin: -3rem;
+    margin: -2rem;
     z-index: 10;
     gap: 0.3rem;
+    font-size: var(--small-font-size);
 }
 
 .member-name{

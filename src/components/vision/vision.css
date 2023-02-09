@@ -38,7 +38,7 @@
 }
 
 .vision-start-button button{
-    background-color: #ff5757;
+    background-color: #ff725e;
     color: #ffffff;
 }
 
@@ -83,7 +83,12 @@
     
   }
   
-  @media screen and (max-width: 576px) {}
+  @media screen and (max-width: 576px) {
+    .vision{
+        /* grid-template-columns: repeat(1,1fr); */
+        padding: 2rem;
+    }
+  }
   
   /* For small devices */
   @media screen and (max-width: 350px) {

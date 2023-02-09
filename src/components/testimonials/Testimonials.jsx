@@ -27,29 +27,16 @@ const Testimonials = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        breakpoints={{
-          576: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 2,
-            spaceBetween: 48,
-          },
-        }}
         modules={[Pagination, Autoplay]}
         className="carosel"
       >
         {Data.map((i) => {
           return (
             <SwiperSlide className="client-card">
+              <i class='bx bxs-quote-alt-left' ></i>
               <div className="client-message">{i.Message}</div>
               <div className="client-info">
-                <Avatar src={i.img}></Avatar>
+                <Avatar src={i.img} sx={{ width: 100, height: 100 }}></Avatar>
                 <div className="client">
                   <h4 className="client-name">{i.name}</h4>
                   <span className="client-post">{i.post}</span>

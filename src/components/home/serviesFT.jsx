@@ -29,7 +29,7 @@ const serviesFT = () => {
           <img src={App} alt="" />
           <h3>Application Development</h3>
           <p>
-          Whether you're looking to develop a mobile app, a web-based software solution, or a custom application to streamline your business processes.
+          Whether you're looking to develop a mobile app or a custom application to streamline your business processes, we have the expertise and experience to help you achieve your goals.
           </p>
           <span>
             View More <i class="bx bx-right-arrow-alt"></i>
