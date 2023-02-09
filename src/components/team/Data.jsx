@@ -15,24 +15,25 @@ export const data = [
     },
     {
         id:2,
+        name: "Prasad Bhasme",
+        role: "Chief Operating Officer",
+        img: Prasad,
+        linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
+        instagram: "https://www.instagram.com/prajwalmandlik7/",
+    },
+    {
+        id:3,
         name: "Ashish Pandit",
         role: "Chief Technology Officer",
         img: Ashish ,
         linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
         instagram: "https://www.instagram.com/prajwalmandlik7/",
     },
-    {
-        id:3,
-        name: "Prasad Bhasme",
-        role: "Chief Marketing Officer",
-        img: Prasad,
-        linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
-        instagram: "https://www.instagram.com/prajwalmandlik7/",
-    },
+   
     {
         id:4,
         name: "Prajwal Mandlik",
-        role: "Developer",
+        role: "Product Manager",
         img: Prajwal,
         linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
         instagram: "https://www.instagram.com/prajwalmandlik7/",
@@ -40,7 +41,7 @@ export const data = [
     {
         id:5,
         name: "Kartik Waghchaure",
-        role: "Customer Service Executive",
+        role: "Chief Marketing Officer",
         img: Kartik ,
         linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
         instagram: "https://www.instagram.com/prajwalmandlik7/",
