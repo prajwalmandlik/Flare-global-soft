@@ -9,7 +9,7 @@ import Vision from "../vision/Vision";
 const Home = () => {
   
   return (
-    <div className="home">
+    <div id="home">
       <Hero />
       <ServiesFT />
       <Vision />

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -19,6 +19,7 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+
         <Footer />
       </Router>
     </>

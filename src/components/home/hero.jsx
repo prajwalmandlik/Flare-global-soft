@@ -3,7 +3,7 @@ import Hero from "../../assest/hero-img.png";
 
 const hero = () => {
   return (
-    <section className="hero container bg-color">
+    <section className="hero container bg-color" id="Hero">
       <div className="hero-content">
         <h1 className="hero-title">
           Empower your vision with <br /> Flare Global Soft

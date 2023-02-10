@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 import "./header.css";
 import Logo from "../../assest/logo.png";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   /* ================ Change Background Header ===============*/
@@ -25,26 +24,18 @@ const Header = () => {
 
         <div className={toggle ? "nav-menu-show" : "nav-menu"}>
           <ul className={toggle ? "nav-links-show" : "nav-links"}>
-            <li className="nav-link">
-              <Link to={"/"}>
-                Home
-              </Link>
-            </li>
-            <li className="nav-link">
-              <Link to={"/About"}>
-                About
-              </Link>
-            </li>
-            <li className="nav-link">
-              <Link to={"/Services"}>
-                Services
-              </Link>
-            </li>
-            <li className="nav-link">
-              <Link to={"/Contact"}>
-                Contact
-              </Link>
-            </li>
+            <HashLink to={"/#home"}>
+              <li className="nav-link">Home</li>
+            </HashLink>
+            <HashLink to={"/About#about"}>
+              <li className="nav-link">About</li>
+            </HashLink>
+            <HashLink to={"/Services#services"}>
+              <li className="nav-link">Services</li>
+            </HashLink>
+            <HashLink to={"/Contact#contact"}>
+              <li className="nav-link">Contact</li>
+            </HashLink>
           </ul>
 
           <div className="nav-toggle">

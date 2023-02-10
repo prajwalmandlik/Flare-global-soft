@@ -4,7 +4,7 @@ import ServicesFT from "../home/serviesFT";
 
 const Services = () => {
   return (
-    <div>
+    <div id='services'>
         <HeroSection name={"SERVICES"} />
       <ServicesFT />
     </div>
