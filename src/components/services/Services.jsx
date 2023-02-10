@@ -1,12 +1,12 @@
 import React from 'react'
 import HeroSection from '../heroForOthersection/HeroSection';
-import ServicesFT from "../home/ServiesFT";
+import ServiesFT from '../home/ServicesFT';
 
 const Services = () => {
   return (
     <div id='services'>
         <HeroSection name={"SERVICES"} />
-      <ServicesFT />
+        <ServiesFT />
     </div>
   )
 }
