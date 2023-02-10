@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="section contact-form">
         <div className="section-text">
           <h2 className="section_title">Get In Toch</h2>
-          <span className="section_subtitle">
+          <span className="section_subtitle ">
             We are available 24/7 by e-mail and phone. You can also ask a
             question about our services through our contact form.
           </span>
