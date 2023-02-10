@@ -8,7 +8,7 @@ const Quote = () => {
         <div>
         Software is a great combination between artistry and engineering.
         </div>
-        <span>-- Bill Gates</span>
+        <span>--Bill Gates</span>
       </div>
     </div>
   );
