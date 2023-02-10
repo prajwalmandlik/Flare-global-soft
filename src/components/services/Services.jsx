@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSection from '../heroForOthersection/HeroSection';
-import ServicesFT from "../home/serviesFT";
+import ServicesFT from "../home/ServiesFT";
 
 const Services = () => {
   return (

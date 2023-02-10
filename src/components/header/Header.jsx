@@ -24,16 +24,16 @@ const Header = () => {
 
         <div className={toggle ? "nav-menu-show" : "nav-menu"}>
           <ul className={toggle ? "nav-links-show" : "nav-links"}>
-            <HashLink to={"/#home"}>
+            <HashLink to={"/#home"} onClick={() => setToggle(!toggle)} >
               <li className="nav-link">Home</li>
             </HashLink>
-            <HashLink to={"/About#about"}>
-              <li className="nav-link">About</li>
+            <HashLink to={"/About#about"} onClick={() => setToggle(!toggle)}>
+              <li className="nav-link" >About</li>
             </HashLink>
-            <HashLink to={"/Services#services"}>
-              <li className="nav-link">Services</li>
+            <HashLink to={"/Services#services"} onClick={() => setToggle(!toggle)} >
+              <li className="nav-link" >Services</li>
             </HashLink>
-            <HashLink to={"/Contact#contact"}>
+            <HashLink to={"/Contact#contact"} onClick={() => setToggle(!toggle)} >
               <li className="nav-link">Contact</li>
             </HashLink>
           </ul>
