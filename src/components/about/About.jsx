@@ -7,7 +7,7 @@ import Vision from '../vision/Vision'
 const About = () => {
   return (
     <div>
-        <HeroSection name={"About Us"} />
+        <HeroSection name={"ABOUT US"} />
       <Vision />
       <Team />
       <Testimonials />

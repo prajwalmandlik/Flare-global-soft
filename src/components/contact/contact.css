@@ -1,0 +1,48 @@
+.contact-form{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.contact-form-cantainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem 2rem;
+}
+
+.form-fild{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5rem;
+}
+
+.form-textarea{
+    grid-column: 1 / 3;
+}
+
+.form-fild label {
+    color: black;
+}
+
+.form-fild sup {
+    color: red;
+}
+
+.form-fild input, textarea{
+    padding: 10px;
+}
+
+::placeholder{
+    color: rgb(149, 149, 149);
+}
+
+.form-fild button {
+    margin-right: auto;
+    background-color: #ff6d1f;
+}
+
+.form-fild button:hover {
+    background-color: #ff5900;
+    color: black;
+}

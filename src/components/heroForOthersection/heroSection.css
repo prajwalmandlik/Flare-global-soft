@@ -18,10 +18,9 @@
 }
 
 .hero-text{
-    font-size: 8rem;
-    color: black;
-    font-family: 'Noto Serif Khojki', serif;
-    
+    font-size: 5rem;
+    color: whitesmoke;
+    font-weight: 700;
 }
 
 /* ================ BREAKPOINS ===============*/

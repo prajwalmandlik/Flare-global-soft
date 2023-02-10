@@ -5,7 +5,7 @@ import ServicesFT from "../home/serviesFT";
 const Services = () => {
   return (
     <div>
-        <HeroSection name={"Services"} />
+        <HeroSection name={"SERVICES"} />
       <ServicesFT />
     </div>
   )

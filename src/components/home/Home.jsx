@@ -7,6 +7,7 @@ import Team from "../team/Team";
 import Vision from "../vision/Vision";
 
 const Home = () => {
+  
   return (
     <div className="home">
       <Hero />
