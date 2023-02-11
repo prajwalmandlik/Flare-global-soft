@@ -1,4 +1,8 @@
 /* ================ CONTACT CARDS ===============*/
+.contact{
+    padding-bottom: 4rem;
+}
+
 .contact-links{
     max-width: 1200px;
     margin: 4rem auto;

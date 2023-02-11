@@ -6,9 +6,8 @@ const Quote = () => {
       <div className="quote-contents">
         <i class="bx bxs-quote-alt-left"></i>
         <div>
-        Software is a great combination between artistry and engineering.
+        Working together as a team, we can achieve more than we could ever do alone.
         </div>
-        <span>--Bill Gates</span>
       </div>
     </div>
   );

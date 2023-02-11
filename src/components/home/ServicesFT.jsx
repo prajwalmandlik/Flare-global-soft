@@ -12,8 +12,8 @@ const ServiesFT = () => {
   return (
     <section className="serviceFT container">
       <div className="section-text">
-        <h2 className="section_title">Services We Deliver</h2>
-        <span className="section_subtitle">
+        <h2 className="section-title">Services We Deliver</h2>
+        <span className="section-subtitle">
           A complete solution for preparing for your success
         </span>
       </div>
@@ -53,31 +53,27 @@ const ServiesFT = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web page development.</p>
+                  <p className="services-modal-info">Personal Websites.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">frontend development.</p>
+                  <p className="services-modal-info">Business Websites.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Backend development.</p>
+                  <p className="services-modal-info">Educational Websites.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    Web application Development.
-                  </p>
+                  <p className="services-modal-info">Non-Profit Websites</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    end-to-end website Development.
-                  </p>
+                  <p className="services-modal-info">Blogs</p>
                 </li>
               </ul>
             </div>
@@ -119,31 +115,29 @@ const ServiesFT = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web page development.</p>
+                  <p className="services-modal-info">Business Apps.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">frontend development.</p>
+                  <p className="services-modal-info">Social Networking Apps.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Backend development.</p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    Web application Development.
-                  </p>
+                  <p className="services-modal-info">Gaming Apps.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    end-to-end website Development.
+                    Education Apps(Academic Projects).
                   </p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Utility Apps.</p>
                 </li>
               </ul>
             </div>
@@ -185,31 +179,32 @@ const ServiesFT = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web page development.</p>
+                  <p className="services-modal-info">Logos.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">frontend development.</p>
+                  <p className="services-modal-info">Print Materials.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Backend development.</p>
+                  <p className="services-modal-info">Advertising.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    Web application Development.
-                  </p>
+                  <p className="services-modal-info">Presentations.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    end-to-end website Development.
-                  </p>
+                  <p className="services-modal-info">Instagram Posts.</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Video Production</p>
                 </li>
               </ul>
             </div>

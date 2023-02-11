@@ -4,10 +4,10 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <section className="container contact" id="contact">
-      <HeroSection name={"CONTACT US"} />
+    <section className="container contact bg-color" id="contact">
+      <HeroSection name={"contact"}  />
 
-      <div className="contact-links">
+      {/* <div className="contact-links">
         <a href="https://wa.me/+919209237239" target={"blank"}>
           <div className="contact-link-card">
             <div className="contact-link-icon">
@@ -19,7 +19,7 @@ const Contact = () => {
           </div>
         </a>
 
-        <a href="https://wa.me/+919209237239" target={"blank"}>
+        <a href="mailto:flareglobalsoft@gmail.com" target={"blank"}>
           <div className="contact-link-card">
             <div className="contact-link-icon">
               <i class="bx bxl-gmail"></i>
@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
           </div>
         </a>
-      </div>
+      </div> */}
 
       <div className="section contact-form">
         <div className="section-text">

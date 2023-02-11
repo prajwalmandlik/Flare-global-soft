@@ -6,7 +6,7 @@ a{
     color: black;
 }
 
-h3{
+.footer-title {
     padding-bottom: .5rem;
     border-bottom: 1px solid black;
 }
@@ -14,7 +14,15 @@ h3{
 /* ================ contact us ===============*/
 .contact-us{
     max-width: 1400px;
-    background-color: #ff6d1f;
+    background-image: linear-gradient(
+    118deg,
+    #ff715ee8,
+    #fdc8c8dc
+    ),
+    url("../../assest/contactUs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;

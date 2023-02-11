@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-quick-link">
-          <h3>Quick Links</h3>
+          <h3 className="footer-title" >Quick Links</h3>
           <ul>
             <li>
               <a href="#!" className="quick-link">
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-contact">
-          <h3>Get in Touch</h3>
+          <h3 className="footer-title">Get in Touch</h3>
           <ul>
             <li>
               <a href="#!">
