@@ -9,7 +9,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background-color: var(--container-color);
+    /* background-color: var(--container-color); */
     padding: 4rem;
     margin-bottom: var(--mb-3);
     text-align: center;
