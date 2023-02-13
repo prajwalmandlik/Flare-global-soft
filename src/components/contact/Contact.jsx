@@ -42,7 +42,7 @@ const Contact = () => {
         </a>
       </div> */}
 
-      {/* <div className="section contact-form">
+      <div className="section contact-form">
         <div className="section-text">
           <h2 className="section_title">Get In Toch</h2>
           <span className="section_subtitle ">
@@ -122,7 +122,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
