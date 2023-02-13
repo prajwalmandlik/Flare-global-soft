@@ -1,19 +1,20 @@
-import React from 'react'
-import HeroSection from '../heroForOthersection/HeroSection';
-import ServiesFT from '../home/ServicesFT';
-import Portfoilo from '../portfolio/Portfolio';
-import Features from './Features';
-
+import React from "react";
+import HeroSection from "../heroForOthersection/HeroSection";
+import ServiesFT from "../home/ServicesFT";
+import Portfoilo from "../portfolio/Portfolio";
+import Features from "./Features";
 
 const Services = () => {
   return (
-    <div id='services'>
-        <HeroSection name={"service"}  />
-        <ServiesFT />
+    <div id="services">
+      <HeroSection name={"service"} />
+      <ServiesFT />
+      <div id="portfolio">
         <Portfoilo />
-        <Features />
+      </div>
+      <Features />
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
 import Logo from "../../assest/footer-logo.png";
+import { HashLink } from "react-router-hash-link";
+
 
 const Footer = () => {
   return (
@@ -53,35 +55,35 @@ const Footer = () => {
           <h3 className="footer-title" >Quick Links</h3>
           <ul>
             <li>
-              <a href="#!" className="quick-link">
+              <HashLink to={"/About#about"} className="quick-link">
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>About us
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#!" className="quick-link">
+              <HashLink to={"/Services#services"} className="quick-link">
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>Services
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#!" className="quick-link">
+              <HashLink to={"/Services#portfolio"} className="quick-link">
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>Portfolio
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#!" className="quick-link">
+              <HashLink to={"/About#team"} className="quick-link">
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>Our team
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#!" className="quick-link">
+              <HashLink to={"/Contact#contact"} className="quick-link">
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>Contact us
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#!" className="quick-link">
+              <HashLink to={"/About#about"} className="quick-link">
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>Terms and
                 Condition
-              </a>
+              </HashLink>
             </li>
           </ul>
         </div>

@@ -59,7 +59,9 @@ const About = () => {
       </section>
 
       <Vision />
-      <Team />
+      <div id="team">
+        <Team />
+      </div>
       <div className="bg-color">
         <Testimonials />
       </div>
