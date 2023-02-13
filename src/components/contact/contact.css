@@ -114,8 +114,12 @@
   
   @media screen and (max-width: 576px) {
     .contact-form{
-        max-width: 200px;
+        max-width: 500px;
         margin: 3rem 1rem;
+    }
+
+    input, textarea {
+        max-width: 500px;
     }
   }
   
