@@ -121,8 +121,8 @@
   
   /* For small devices */
   @media screen and (max-width: 450px) {
-    .contact-form{
+    .contact-form textarea input {
         max-width: 400px;
-        margin: 3rem 1rem;
+        /* margin: 3rem 1rem; */
     }
   }
