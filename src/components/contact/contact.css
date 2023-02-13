@@ -114,14 +114,14 @@
   
   @media screen and (max-width: 576px) {
     .contact-form{
-        max-width: 500px;
+        max-width: 200px;
         margin: 3rem 1rem;
     }
   }
   
   /* For small devices */
   @media screen and (max-width: 450px) {
-    .form-fild {
+    /* .form-fild {
         max-width: 400px;
-    }
+    } */
   }
