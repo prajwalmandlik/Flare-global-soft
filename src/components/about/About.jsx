@@ -33,21 +33,7 @@ const About = () => {
             gain a competitive edge, we have the expertise and experience to
             help you achieve your vision.
           </p>
-          <br />
-          <p>
-            Our team is made up of talented and dedicated professionals who are
-            passionate about their work. We are constantly investing in training
-            and education to stay ahead of the curve when it comes to technology
-            and design, so that we can deliver the best possible solutions to
-            our clients.
-          </p>
-          <br />
-          <p>
-            We believe that success is about more than just delivering great
-            products and services. That's why we are committed to building
-            long-lasting relationships with our clients, based on trust,
-            transparency, and exceptional customer service.
-          </p>
+         
         </div>
       </section>
 

@@ -1,15 +1,19 @@
 import React from "react";
 import "./services.css";
-import Img1 from "../../assest/Features/collaboration.png"
-import Img2 from "../../assest/Features/delivery.png"
-import Img3 from "../../assest/Features/after-seles-services.png"
-import Img4 from "../../assest/Features/24hr-delivery.png"
-
-
+import Img1 from "../../assest/Features/collaboration.png";
+import Img2 from "../../assest/Features/delivery.png";
+import Img3 from "../../assest/Features/after-seles-services.png";
+import Img4 from "../../assest/Features/24hr-delivery.png";
 
 const Features = () => {
   return (
     <section className="section container features  bg-color">
+      <div className="section-text">
+        <h2 className="section_title">
+          We believe that success is about more than just delivering great
+          products and services.
+        </h2>
+      </div>
 
       <div className="feature-section">
         <div className="feature-img">

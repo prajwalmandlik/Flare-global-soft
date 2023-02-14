@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import Hero from "../../assest/hero-img.png";
 
 const hero = () => {
@@ -13,8 +14,12 @@ const hero = () => {
           highest level. We optimize Business processes, making them easier.
         </p>
         <div className="hero-buttons">
-          <button className="get-started hero-button">Get Started</button>
-          <button className="learn-more hero-button">Learn More</button>
+          <HashLink to={"/Services#services"}>
+            <button className="get-started hero-button">Get Started</button>
+          </HashLink>
+          <HashLink to={"/About#about"}>
+            <button className="learn-more hero-button">Learn More</button>
+          </HashLink>
         </div>
       </div>
 

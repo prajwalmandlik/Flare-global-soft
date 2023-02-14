@@ -1,6 +1,7 @@
 import React from 'react'
 import "./vision.css";
 import VisionImg from "../../assest/vision.png";
+import { HashLink } from 'react-router-hash-link';
 
 const Vision = () => {
   return (
@@ -34,7 +35,9 @@ const Vision = () => {
             </div>
 
             <div className="vision-start-button">
+            <HashLink to={"/Services#services"} >
                 <button className="button">Get Started</button>
+            </HashLink>
             </div>
         </div>
     </section>

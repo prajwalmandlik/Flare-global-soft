@@ -8,7 +8,8 @@ const Team = () => {
       <div className="section-text">
         <h2 className="section_title">Team</h2>
         <span className="section_subtitle">
-          Nothing works better than our team members
+          Our team is made up of talented and dedicated professionals who are
+          passionate about their work.
         </span>
       </div>
 

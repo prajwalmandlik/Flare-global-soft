@@ -19,7 +19,9 @@ const Header = () => {
     <header className="header section">
       <nav className="nav container">
         <div className="nav-logo">
+        <HashLink to={"/#home"} className={"logo-link"}>
           <img src={Logo} alt="" /> <span>Flare Global Soft</span>
+            </HashLink>
         </div>
 
         <div className={toggle ? "nav-menu-show" : "nav-menu"}>

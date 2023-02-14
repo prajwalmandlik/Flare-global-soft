@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import Logo from "../../assest/footer-logo.png";
-import { HashLink } from "react-router-hash-link";
+import { HashLink} from "react-router-hash-link";
 
 
 const Footer = () => {
@@ -13,7 +13,9 @@ const Footer = () => {
           reach new Heights.
         </div>
         <div className="contact-us-button">
+        <HashLink to={"/Contact#contact"}>
           <button className="button">Contact Us</button>
+            </HashLink>
         </div>
       </div>
       <div className="footer">
