@@ -123,8 +123,8 @@
     }
 
     input, textarea {
-        width: 100px;
-        margin-right: 1rem;
+        width: 83vw;
+        /* margin-right: 1rem; */
     }
   }
   
