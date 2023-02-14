@@ -124,6 +124,7 @@
 
     input, textarea {
         max-width: 500px;
+        margin-right: 1rem;
     }
   }
   
