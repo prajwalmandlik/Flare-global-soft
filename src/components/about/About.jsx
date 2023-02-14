@@ -48,13 +48,6 @@ const About = () => {
             long-lasting relationships with our clients, based on trust,
             transparency, and exceptional customer service.
           </p>
-          <br />
-          <p>
-            If you're looking for a partner who can help you unleash your
-            potential through technology, look no further than Flare Global
-            Soft. Contact us today to learn more about how we can help you
-            achieve your goals.
-          </p>
         </div>
       </section>
 
