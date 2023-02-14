@@ -7,6 +7,7 @@ import Img4 from "../../assest/Features/24hr-delivery.png";
 
 const Features = () => {
   return (
+    <>
     <section className="section container features  bg-color">
       <div className="section-text">
         <h2 className="section_title">
@@ -31,6 +32,8 @@ const Features = () => {
           </p>
         </div>
       </div>
+      </section>
+      <section className="section container features">
 
       <div className="feature-section opposite">
         <div className="feature-img">
@@ -48,7 +51,8 @@ const Features = () => {
           </p>
         </div>
       </div>
-
+      </section>
+      <section className="section container features bg-color">
       <div className="feature-section">
         <div className="feature-img">
           <img src={Img3} alt="" />
@@ -64,6 +68,8 @@ const Features = () => {
           </p>
         </div>
       </div>
+      </section>
+      <section className="section container features">
 
       <div className="feature-section opposite">
         <div className="feature-img">
@@ -81,22 +87,8 @@ const Features = () => {
         </div>
       </div>
 
-      {/* <div className="feature-section">
-        <div className="feature-img">
-          <img src={Img} alt="" />
-        </div>
-        <div className="feature-info">
-          <h2 className="feature-title">Conclusion:</h2>
-          <p className="feature-description">
-            At flare global soft, we are dedicated to providing you with the
-            best technology solutions and services. Our team of experts will
-            work with you to understand your needs and provide you with the best
-            solutions for your business. Contact us today to learn more about
-            our services and how we can help you reach your technology goals.
-          </p>
-        </div>
-      </div> */}
     </section>
+    </>
   );
 };
 

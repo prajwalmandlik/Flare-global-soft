@@ -65,6 +65,10 @@
     transition: translateX(0.25rem);
 }
 
+.portfolio-button:hover .portfolio-button-icon {
+    transition: .3s ease;
+    transform: translateX(00.25rem);
+}
 /* active work */
 .active-work {
     background-color: var(--title-color);

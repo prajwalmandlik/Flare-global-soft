@@ -8,12 +8,13 @@ import Quote from "./Quote";
 import ServiesFT from "./ServicesFT";
 
 const Home = () => {
-  
   return (
     <div id="home">
       <Hero />
       <ServiesFT />
-      <Vision />
+      <div className="bg-color">
+        <Vision />
+      </div>
       <Testimonials />
       <Quote />
       <Team />

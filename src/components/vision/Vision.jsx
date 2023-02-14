@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Vision = () => {
   return (
-    <section className="vision container bg-color">
+    <section className="vision container">
         <div className="vision-img">
             <img src={VisionImg} alt="" />
         </div>

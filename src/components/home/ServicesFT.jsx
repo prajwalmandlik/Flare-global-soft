@@ -44,7 +44,7 @@ const ServiesFT = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">Web Developer</h3>
+              <h3 className="services-modal-title">Website Development</h3>
               <p className="services-modal-description">
                 Serives with 1 years of experience. Providing quality work to
                 clients and companies.

@@ -8,7 +8,9 @@ const Services = () => {
   return (
     <div id="services">
       <HeroSection name={"service"} />
+      <div className="bg-color">
       <ServiesFT />
+      </div>
       <div id="portfolio">
         <Portfoilo />
       </div>

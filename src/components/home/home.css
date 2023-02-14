@@ -113,14 +113,14 @@
     font-size: var(--smaller-font-size);
 }
 
-.service-card span {
+/* .service-card span {
     font-size: var(--normal-font-size);
-}
+} */
 
 
 
 .services-button {
-    color: var(--title-color);
+    color: var(--text-color);
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;

@@ -1,8 +1,10 @@
 .about-us{
     max-width: 1200px;
-    margin: auto;
     text-align: center;
-    margin-bottom: 4rem;
+    margin:auto;
+    font-size: 2rem;
+    color: black;
+    padding: 4rem 0;
 }
 
 /* ================ BREAKPOINS ===============*/
@@ -10,17 +12,23 @@
 @media screen and (max-width: 992px) {
     .about-us{
         margin: 4rem 2rem;
-        text-align: start;
+        font-size: 1.8rem;
     }
   }
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
+    .about-us{
+        font-size: 1.6rem;
+        text-align: justify;
+    }
     
   }
   
   @media screen and (max-width: 576px) {
-    
+    .about-us{
+        font-size: 1.4rem;
+    }
   }
   
   /* For small devices */
