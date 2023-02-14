@@ -9,6 +9,7 @@
     grid-template-columns: repeat(3,1fr);
     row-gap: 5rem;
     column-gap: 4rem;
+    margin-top: 4rem;
 }
 
 .team-card{
@@ -62,7 +63,7 @@
 }
 
 .social-link i:hover{
-    color: rgba(0, 0, 255 ,0.7);
+    color: rgb(0, 0, 0);
 }
 
 .member-info{
