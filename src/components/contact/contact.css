@@ -123,7 +123,7 @@
     }
 
     input, textarea {
-        max-width: 500px;
+        width: 100px;
         margin-right: 1rem;
     }
   }
