@@ -26,8 +26,8 @@ export const data = [
         name: "Ashish Pandit",
         role: "Chief Technology Officer",
         img: Ashish ,
-        linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
-        instagram: "https://www.instagram.com/prajwalmandlik7/",
+        linkdin: "https://www.linkedin.com/in/ashish-pandit-2566361ab/",
+        instagram: "https://www.instagram.com/___ashish___32/",
     },
    
     {
@@ -43,7 +43,7 @@ export const data = [
         name: "Kartik Waghchaure",
         role: "Chief Marketing Officer",
         img: Kartik ,
-        linkdin: "https://www.linkedin.com/in/prajwal-mandlik/",
-        instagram: "https://www.instagram.com/prajwalmandlik7/",
+        linkdin: "https://www.linkedin.com/in/kartik-waghchaure-111a6124b/",
+        instagram: "https://www.instagram.com/__.kartik.__004/",
     },
 ];
