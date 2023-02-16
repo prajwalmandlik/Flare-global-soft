@@ -5,12 +5,12 @@ import HeroSection from "../heroForOthersection/HeroSection";
 const TermsAndConditions = () => {
   return (
     <div id="Terms-and-condition" className="">
-      <HeroSection name={"Terms and Condition"} />
+      <HeroSection name={"Terms & Condition"} />
 
       <section className="section cantainer terms">
         <div className="terms-containt">
           <div className="term-container">
-            <div className="term-title">Web Development</div>
+            <div className="term-title">Terms and Condition</div>
             <div className="term-info">
               These terms and conditions ("Agreement") are entered into by and
               between [Your Company Name] ("Service Provider") and the client

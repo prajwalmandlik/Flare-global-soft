@@ -18,6 +18,14 @@
   align-items: flex-end;
 }
 
+.hero-text p {
+  font-size: 7rem;
+  color: whitesmoke;
+  font-weight: 700;
+  margin-left: 2rem;
+  text-transform: uppercase;
+}
+
 .service-img{
   background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/services.jpg");
 }
@@ -30,13 +38,10 @@
   background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/contact.jpg");
 }
 
-.hero-text p {
-  font-size: 7rem;
-  color: whitesmoke;
-  font-weight: 700;
-  margin-left: 2rem;
-  text-transform: uppercase;
+.terms-img{
+  background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/terms.jpg");
 }
+
 
 /* ================ BREAKPOINS ===============*/
 /* For large devices  */
