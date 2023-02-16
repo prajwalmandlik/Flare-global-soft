@@ -1,8 +1,8 @@
-import Rushi from "../../assest/team/Rushi.jpg";
-import Ashish from "../../assest/team/ashish.jpeg";
-import Prasad from "../../assest/team/prasad.jpeg";
+import Rushi from "../../assest/team/Rishikesh.jpg";
+import Ashish from "../../assest/team/Ashish.jpg";
+import Prasad from "../../assest/team/prasad.jpg";
 import Prajwal from "../../assest/team/prajwal.jpg";
-import Kartik from "../../assest/team/kartik.jpeg";
+import Kartik from "../../assest/team/Kartik.jpg";
 
 export const data = [
     {

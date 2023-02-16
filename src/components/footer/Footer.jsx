@@ -82,9 +82,9 @@ const Footer = () => {
               </HashLink>
             </li>
             <li>
-              <HashLink to={"/About#about"} className="quick-link">
+              <HashLink to={"/TermsAndCondition#Terms-and-condition"} className="quick-link">
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>Terms and
-                Condition
+                Conditions
               </HashLink>
             </li>
           </ul>

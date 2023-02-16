@@ -7,11 +7,17 @@
     padding: 4rem 0;
 }
 
+.about-us .logo{
+  width: 25rem;
+  margin: auto;
+
+}
+
 /* ================ BREAKPOINS ===============*/
 /* For large devices  */
 @media screen and (max-width: 992px) {
     .about-us{
-        margin: 4rem 2rem;
+        margin: 0 2rem 4rem 2rem;
         font-size: 1.8rem;
     }
   }
@@ -23,6 +29,11 @@
         text-align: justify;
     }
     
+    .about-us .logo{
+      width: 20rem;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
   }
   
   @media screen and (max-width: 576px) {
