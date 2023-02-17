@@ -46,34 +46,39 @@ const ServiesFT = () => {
 
               <h3 className="services-modal-title">Website Development</h3>
               <p className="services-modal-description">
-                Serives with 1 years of experience. Providing quality work to
+                Serives with 2 years of experience. Providing quality work to
                 clients and companies.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Personal Websites.</p>
+                  <p className="services-modal-info">Custom website design and development.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Business Websites.</p>
+                  <p className="services-modal-info">Redesigning.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Educational Websites.</p>
+                  <p className="services-modal-info">Web application development and intergration.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Non-Profit Websites</p>
+                  <p className="services-modal-info">Maintenance and support.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Blogs</p>
+                  <p className="services-modal-info">Domain and hosting.</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Project handling and error solving.</p>
                 </li>
               </ul>
             </div>
@@ -108,36 +113,39 @@ const ServiesFT = () => {
 
               <h3 className="services-modal-title">Application Development</h3>
               <p className="services-modal-description">
-                Serives with 1 years of experience. Providing quality work to
+                Serives with 2 years of experience. Providing quality work to
                 clients and companies.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Business Apps.</p>
+                  <p className="services-modal-info">Custom app design and development.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Social Networking Apps.</p>
+                  <p className="services-modal-info">App redesigning.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Gaming Apps.</p>
+                  <p className="services-modal-info">Mobile SDKs.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    Education Apps(Academic Projects).
-                  </p>
+                  <p className="services-modal-info">Utilities development.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Utility Apps.</p>
+                  <p className="services-modal-info">Maintenance and support.</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Project and error solving.</p>
                 </li>
               </ul>
             </div>
@@ -172,14 +180,14 @@ const ServiesFT = () => {
 
               <h3 className="services-modal-title">Graphics Design</h3>
               <p className="services-modal-description">
-                Serives with 1 years of experience. Providing quality work to
+                Serives with 2 years of experience. Providing quality work to
                 clients and companies.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Logos.</p>
+                  <p className="services-modal-info">Logo design and branding.</p>
                 </li>
 
                 <li className="services-modal-service">
