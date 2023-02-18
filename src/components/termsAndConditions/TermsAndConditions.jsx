@@ -12,11 +12,10 @@ const TermsAndConditions = () => {
           <div className="term-container">
             <div className="term-title">Terms and Condition</div>
             <div className="term-info">
-              These terms and conditions ("Agreement") are entered into by and
-              between [Your Company Name] ("Service Provider") and the client
-              ("Client") as of the date of electronic acceptance. The Agreement
-              governs Client's use of the Service Provider's web development
-              services ("Services").
+              These terms and conditions are entered into by and between Flare
+              global soft and the client as of the date of electronic
+              acceptance. The Agreement governs Client's use of the Service
+              Provider's services.
               <ol>
                 <li>
                   <strong>Services: </strong>
@@ -79,10 +78,9 @@ const TermsAndConditions = () => {
                 <li>
                   <strong>Governing Law and Jurisdiction : </strong>
                   This Agreement shall be governed by and construed in
-                  accordance with the laws of [Your Country/State/Province]. Any
-                  legal action or proceeding arising out of or in connection
-                  with this Agreement shall be brought exclusively in the courts
-                  of [Your City/Region].
+                  accordance with the laws of India. Any legal action or
+                  proceeding arising out of or in connection with this Agreement
+                  shall be brought exclusively in the courts of Nashik.
                 </li>
                 <li>
                   <strong>Entire Agreement: </strong>
