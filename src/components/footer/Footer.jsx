@@ -40,7 +40,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#!">
+                <a href="https://www.instagram.com/flareglobalsoft/">
                   <i class="bx bxl-instagram"></i>
                 </a>
               </li>
@@ -94,23 +94,23 @@ const Footer = () => {
           <h3 className="footer-title">Get in Touch</h3>
           <ul>
             <li>
-              <a href="#!">
+              <a href="https://goo.gl/maps/9GJDAPCVWCtkTit2A">
                 <i class="bx bxs-map bx-flip-horizontal"></i>Nashik, Maharashtra
               </a>
             </li>
             <li>
-              <a href="#!">
+              <a href="https://wa.me/+919209237239">
                 <i class="bx bxs-phone-call"></i>(+91) 9209237239
               </a>
             </li>
             <li>
-              <a href="#!">
+              <a href="mailto:flareglobalsoft@gmail.com">
                 <i class="bx bxs-envelope"></i>flareglobalsoft@gmail.com
               </a>
             </li>
             <li>
-              <a href="#!">
-                <i class="bx bx-globe"></i>www.flareglobalsoft.tech
+              <a href="http://flareglobalsoft.com/">
+                <i class="bx bx-globe"></i>www.flareglobalsoft.com
               </a>
             </li>
           </ul>
