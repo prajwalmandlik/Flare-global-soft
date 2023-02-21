@@ -38,6 +38,9 @@ const Header = () => {
             <HashLink to={"/Contact#contact"} onClick={() => setToggle(!toggle)} >
               <li className="nav-link">Contact</li>
             </HashLink>
+            <HashLink to={"/Internship#Internship"} onClick={() => setToggle(!toggle)} >
+              <li className="nav-link">Internship</li>
+            </HashLink>
           </ul>
 
           <div className="nav-toggle">

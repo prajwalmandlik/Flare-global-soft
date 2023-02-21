@@ -1,9 +1,9 @@
 /* ================ CONTACT CARDS ===============*/
-.contact{
+.contact {
     padding-bottom: 4rem;
 }
 
-.contact-links{
+.contact-links {
     max-width: 1200px;
     margin: 4rem auto;
     display: flex;
@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.contact-link-card{
+.contact-link-card {
     width: 350px;
     border: 1px solid rgb(197, 197, 197);
     display: flex;
@@ -25,14 +25,14 @@
     border-radius: 10px;
 }
 
-.contact-link-card:hover{
+.contact-link-card:hover {
     border: 1px solid black;
     background-color: #fef8f5;
     transition: .3s ease-in-out;
     scale: 1.02;
 }
 
-.contact-link-icon{
+.contact-link-icon {
     font-size: 4rem;
 }
 
@@ -40,27 +40,37 @@
 
 /* ================ CONTACT FORM ===============*/
 
-.contact-form{
+.contact-form {
     max-width: 1200px;
     margin: auto;
     margin-bottom: 5rem;
 }
 
-.contact-form-cantainer{
+.contact-form-cantainer {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem 2rem;
     margin-top: 4rem;
 }
 
-.form-fild{
+.form-fild-title {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    border-bottom: 2px solid black;
+    margin: 2rem 0;
+}
+
+.form-fild {
     display: flex;
     flex-flow: column nowrap;
     gap: .5rem;
 }
 
-.form-textarea{
+.form-textarea,
+.form-fild-title,
+.collage-name {
     grid-column: span 2;
 }
 
@@ -72,15 +82,22 @@
     color: red;
 }
 
-.form-fild input, textarea{
+.form-fild input,
+textarea,
+select {
     padding: 10px;
 }
 
-.form-fild textarea{
+.form-fild textarea {
     resize: vertical;
 }
 
-::placeholder{
+option {
+    padding: 10px;
+}
+
+::placeholder,
+option {
     color: rgb(149, 149, 149);
 }
 
@@ -97,41 +114,44 @@
 /* ================ BREAKPOINS ===============*/
 /* For large devices  */
 @media screen and (max-width: 992px) {
-    .contact-form{
+    .contact-form {
         margin: 5rem 2rem;
     }
-  }
-  
-  /* For medium devices */
-  @media screen and (max-width: 768px) {
-    .contact-form-cantainer{
-        grid-template-columns: repeat(1,1fr);
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .contact-form-cantainer {
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .form-textarea{
+    .form-textarea,
+    .form-fild-title,
+    .collage-name {
         grid-column: span 1;
     }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .contact-form{
+}
+
+@media screen and (max-width: 576px) {
+    .contact-form {
         max-width: 500px;
         margin: 3rem 1rem;
     }
 
-    .contact-form-cantainer{
-        grid-template-columns: repeat(1,max-width(400px));
+    .contact-form-cantainer {
+        grid-template-columns: repeat(1, max-width(400px));
     }
 
-    input, textarea {
+    input,
+    textarea {
         width: 83vw;
         /* margin-right: 1rem; */
     }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 450px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
     /* .form-fild {
         max-width: 400px;
     } */
-  }
+}
