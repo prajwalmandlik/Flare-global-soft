@@ -13,7 +13,7 @@ const Intership = () => {
     emailjs
       .sendForm(
         "service_n1fv6ef",
-        "template_1az9wjy",
+        "template_uduwmd7",
         form.current,
         "tsu26D7OjQBrjfvw1"
       )
@@ -34,18 +34,15 @@ const Intership = () => {
       <HeroSection name={"Internship"} />
       <section className="section cantainer contact-form">
         <div className="section contact-form">
-            <form
-              ref={form}
-              onSubmit={sendEmail}
-              className="contact-form-cantainer"
-            >
-
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="contact-form-cantainer"
+          >
             <div className="form-fild-title">Personal Details</div>
 
             <div className="form-fild">
-              <label htmlFor="name">
-                Name <sup>*</sup>
-              </label>
+              <label htmlFor="name">Name</label>
               <input
                 type="text"
                 name="name"
@@ -56,9 +53,7 @@ const Intership = () => {
             </div>
 
             <div className="form-fild">
-              <label htmlFor="email">
-                Email <sup>*</sup>
-              </label>
+              <label htmlFor="email">Email</label>
               <input
                 type="email"
                 name="eamil"
@@ -69,9 +64,7 @@ const Intership = () => {
             </div>
 
             <div className="form-fild">
-              <label htmlFor="mobile-no">
-                Mobile No <sup>*</sup>
-              </label>
+              <label htmlFor="mobile-no">Mobile No</label>
               <input
                 type="tel"
                 name="mobile-no"
@@ -83,7 +76,8 @@ const Intership = () => {
 
             <div className="form-fild">
               <label htmlFor="linkdin">
-                Linkdin Profile 
+                Linkdin Profile{" "}
+                <span className="optional-text">(optional)</span>
               </label>
               <input
                 type="url"
@@ -96,34 +90,33 @@ const Intership = () => {
             <div className="form-fild-title">Skills</div>
 
             <div className="form-fild">
-              <label htmlFor="filed">
-                Intersted Filed <sup>*</sup>
-              </label>
-              <select name="filed" id="filed">
-              <option value="none" disabled selected  className="option fild">Select any one</option>
-              <option value="web Development">Web Development</option>
-              <option value="App Development">App Development</option>
-              <option value="Python Development">Python Development</option>
-              <option value="Graphics Desing">Graphics Desing</option>
+              <label htmlFor="filed">Intersted Filed</label>
+              <select name="filed" id="filed" required>
+                <option value="none" disabled selected>
+                  Select any one
+                </option>
+                <option value="web Development">Web Development</option>
+                <option value="App Development">App Development</option>
+                <option value="Python Development">Python Development</option>
+                <option value="Graphics Desing">Graphics Desing</option>
               </select>
             </div>
 
             <div className="form-fild">
-              <label htmlFor="skills">
-                Add your skills 
-              </label>
+              <label htmlFor="skills">Add your skills</label>
               <input
                 type="text"
                 name="skills"
                 id="skills"
-                placeholder="add multiple skills by comma"
+                placeholder="add your skills"
                 multiple
+                required
               />
             </div>
 
             <div className="form-fild">
               <label htmlFor="project">
-                Project  
+                Project <span className="optional-text">(optional)</span>
               </label>
               <input
                 type="url"
@@ -136,7 +129,7 @@ const Intership = () => {
 
             <div className="form-fild">
               <label htmlFor="certificate">
-              Certificate
+                Certificate <span className="optional-text">(optional)</span>
               </label>
               <input
                 type="url"
@@ -150,49 +143,45 @@ const Intership = () => {
             <div className="form-fild-title">Collage Details</div>
 
             <div className="form-fild collage-name">
-              <label htmlFor="collage">
-              Collage Name
-              </label>
+              <label htmlFor="collage">Collage Name</label>
               <input
                 type="text"
                 name="collage"
                 id="collage"
                 placeholder="enter collage name"
+                required
               />
             </div>
 
             <div className="form-fild">
-              <label htmlFor="branch">
-              Branch
-              </label>
+              <label htmlFor="branch">Branch</label>
               <input
                 type="text"
-                name="collage"
-                id="collage"
+                name="branch"
+                id="branch"
                 placeholder="enter collage name"
+                required
               />
             </div>
-
 
             <div className="form-fild">
-              <label htmlFor="year-of-study">
-              Year of Study
-              </label>
+              <label htmlFor="year-of-study">Year of Study</label>
               <input
                 type="text"
-                name="collage"
-                id="collage"
+                name="year-of-study"
+                id="year-of-study"
                 placeholder="enter collage name"
+                required
               />
             </div>
+
+            {/* <div className="form-fild-title">About</div> */}
 
             <div className="form-fild form-textarea">
-              <label htmlFor="message">
-                Message
-              </label>
+              <label htmlFor="about">About</label>
               <textarea
-                name="message"
-                id="message"
+                name="about"
+                id="about"
                 cols="30"
                 rows="4"
                 required
@@ -200,15 +189,15 @@ const Intership = () => {
               ></textarea>
             </div>
 
-              <div className="form-fild">
-                <button type="submit" className="button">
-                    send your application
-                </button>
-              </div>
-            </form>
+            <div className="form-fild">
+              <button type="submit" className="button">
+                send your application
+              </button>
+            </div>
+          </form>
 
-            <Toaster position="top-center" reverseOrder={false} />
-          </div>
+          <Toaster position="top-center" reverseOrder={false} />
+        </div>
       </section>
     </>
   );

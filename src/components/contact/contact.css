@@ -83,22 +83,29 @@
 }
 
 .form-fild input,
-textarea,
-select {
+textarea{
     padding: 10px;
+}
+
+select{
+    padding: 13px;
+    font-size: var(--normal-font-size);
 }
 
 .form-fild textarea {
     resize: vertical;
 }
 
-option {
+.option-fild span{
     padding: 10px;
 }
 
-::placeholder,
-option {
+::placeholder,.optional-text{
     color: rgb(149, 149, 149);
+}
+
+.optional-text{
+    font-size: var(--smaller-font-size);
 }
 
 .form-fild button {

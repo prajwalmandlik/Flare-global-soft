@@ -30,22 +30,22 @@ const Footer = () => {
           <div className="footer-social-links">
             <ui className="footer-social-link">
               <li>
-                <a href="#!">
+                <a href="https://www.facebook.com/people/Flare-Global-Soft/100090568836870/" target={"blank"}>
                   <i class="bx bxl-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="#!">
+                <a href="https://twitter.com/flareglobalsoft" target={"blank"}>
                   <i class="bx bxl-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/flareglobalsoft/">
+                <a href="https://www.instagram.com/flareglobalsoft/" target={"blank"}>
                   <i class="bx bxl-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#!">
+                <a href="#!" target={"blank"}>
                   <i class="bx bxl-linkedin"></i>
                 </a>
               </li>
