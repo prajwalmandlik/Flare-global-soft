@@ -87,6 +87,18 @@ const Intership = () => {
               />
             </div>
 
+            <div className="form-fild form-textarea">
+              <label htmlFor="about">About</label>
+              <textarea
+                name="about"
+                id="about"
+                cols="30"
+                rows="4"
+                required
+                placeholder="Tell us about your self"
+              ></textarea>
+            </div>
+
             <div className="form-fild-title">Skills</div>
 
             <div className="form-fild">
@@ -177,17 +189,7 @@ const Intership = () => {
 
             {/* <div className="form-fild-title">About</div> */}
 
-            <div className="form-fild form-textarea">
-              <label htmlFor="about">About</label>
-              <textarea
-                name="about"
-                id="about"
-                cols="30"
-                rows="4"
-                required
-                placeholder="Tell us about your self"
-              ></textarea>
-            </div>
+            
 
             <div className="form-fild">
               <button type="submit" className="button">
